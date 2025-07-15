@@ -1,0 +1,26 @@
+# GUI framework (built-in, no version constraint)
+tkinter  # Linux may need: sudo apt-get install python3-tk
+
+# Core scientific computing
+numpy==2.2.3  # Current stable version with ABI compatibility
+
+# Visualization
+matplotlib==3.10.0  # Astropy 7.x compatible release
+
+# Astronomy data processing
+astropy==7.0.1  # Supports ASDF serialization & IERS updates
+sunpy==6.1.1    # Deep integration with Astropy 7.x
+asdf==4.1.0     # Advanced Scientific Data Format
+asdf-astropy==0.7.1  # ASDF extension for Astropy
+
+# Image processing
+scikit-image==0.25.2  # NumPy 2.2.x compatible
+opencv-python==4.11.0  # Computer vision supplement
+
+# FITS and coordinate tools
+astropy-healpix==1.1.2  # HEALPix implementation
+reproject==0.14.1       # Astronomical reprojection
+
+# Utilities
+pandas==2.2.3  # Tabular data handling
+dask==2025.2.0  # Parallel computing support
