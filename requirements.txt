@@ -1,5 +1,3 @@
-# GUI framework (built-in, no version constraint)
-tkinter  # Linux may need: sudo apt-get install python3-tk
 
 # Core scientific computing
 numpy==2.2.3  # Current stable version with ABI compatibility
