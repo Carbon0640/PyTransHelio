@@ -13,7 +13,6 @@ asdf-astropy==0.7.1  # ASDF extension for Astropy
 
 # Image processing
 scikit-image==0.25.2  # NumPy 2.2.x compatible
-opencv-python==4.11.0  # Computer vision supplement
 
 # FITS and coordinate tools
 astropy-healpix==1.1.2  # HEALPix implementation
